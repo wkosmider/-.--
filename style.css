@@ -1,0 +1,127 @@
+html, body {
+	height: 100%;
+	font-family: 'Lato';
+	font-weight: 300;
+	margin: 0;
+} 
+
+ul {
+	list-style-type: none;
+	background-color: #e84242;
+	width: 100%;
+
+	position: fixed;
+	top: 0;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a, a:active {
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+.info a {
+	color: #e84242;
+}
+
+.info a:hover {
+	color: #333;
+}
+
+section {
+	height: 100%;
+	padding-top: 60px;
+}
+
+.video {
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+section#about {
+	background-color: white;
+}
+
+section#ilike {
+	background-color: #2DAEBF;
+}
+
+#about div {
+	width: 45%;
+	display: inline-block;
+}
+
+#about .avatar {
+	padding-left: 30px;
+	overflow: hidden;
+	height: 500px;
+	width: 500px;
+}
+
+#about div img {
+	height: 100%;
+	width: 100%;
+}
+
+#about .grow img {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+ 
+#about .grow img:hover {
+	width: 550px;
+	height: 550px;
+}
+
+h1 {
+	margin: 0;
+	padding: 30px;
+}
+
+footer {
+	background-color: #333;
+	text-align: right;
+	color: #858585;
+}
+
+.author {
+	padding: 15px;
+	display: inline-block;
+}
+
+.socials {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 30px;
+	color: #858585;
+}
+
+.socials:hover {
+	color: white;
+}
+
+p {
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+.info p {
+	padding-left: 50px;
+}
